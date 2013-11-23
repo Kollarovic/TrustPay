@@ -60,6 +60,7 @@ class TrustPay extends Nette\Object
 	/**
 	 * @param string
 	 * @param string
+	 * @param string
 	 * @param bool
 	 * @return void
 	 */
@@ -107,7 +108,7 @@ class TrustPay extends Nette\Object
 	
 	/**
 	 * @param array
-	 * @return self
+	 * @return bool
 	 */
 	public function isOk(array $result) 
 	{
