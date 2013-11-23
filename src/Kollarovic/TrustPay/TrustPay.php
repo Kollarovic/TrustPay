@@ -152,6 +152,7 @@ class TrustPay extends Nette\Object
 
 	/**
 	 * @param array
+	 * @param array
 	 * @return string
 	 */
 	private function createMesage(array $result, array $sequence) 
