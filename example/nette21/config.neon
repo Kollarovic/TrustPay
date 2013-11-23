@@ -1,0 +1,13 @@
+extensions:
+	trustpay: Kollarovic\TrustPay\DI\Extension
+
+
+trustpay:
+	test:
+		aid: '1234567890'
+		key: 'abcd1234'
+	production:
+		aid: '1234567890'
+		key: 'abcd1234'
+	sandbox: true
+	curency: 'EUR'
